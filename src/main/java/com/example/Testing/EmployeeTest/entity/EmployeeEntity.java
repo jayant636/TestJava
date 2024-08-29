@@ -16,6 +16,7 @@ public class EmployeeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long empId;
 
+
     private String empName ;
 
     private String email;
